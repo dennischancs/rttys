@@ -1,5 +1,7 @@
 #!/bin/bash
 
+DEST=$1
+
 [ -n "$DEST" ] || DEST="."
 
 mkdir -p "$DEST"
